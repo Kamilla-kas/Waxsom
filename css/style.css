@@ -1,0 +1,405 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700,900|Maven+Pro&display=swap');
+html{
+    font-size: 10px;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Lato', sans-serif;
+    font-size: 12px;
+}
+li{
+    list-style: none;
+}
+a, a:hover{
+    text-decoration: none;
+    color: inherit;
+
+}
+header{
+    height: 63px;
+    background: #323232;
+    font-size: 10px;
+    position: relative;
+}
+header:before{
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    bottom: -26px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 26px 45px 0 45px;
+    border-color: #323232 transparent transparent transparent;
+    z-index: 2;
+}
+.menu{
+    position: relative;
+}
+.menu:before{
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -50px;
+    margin: auto;
+    width: 960px;
+    height: 1px;
+    background: #e4e9eb;
+}
+.menu:after{
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -50px;
+    margin: auto;
+    width: 140px;
+    height: 1px;
+    background: #fff;
+}
+
+.menu .menu-list{
+    text-align: center;
+    color: #fff;
+    font-weight: 700;
+    text-transform: uppercase ;
+}
+.menu .menu-list .menu__list__item{
+    display: inline-block;
+    margin: -19px 12px;
+}
+.active:hover{
+    color: #2eb398;
+}
+.menu .logo{
+    position: relative;
+    top: 28px;
+
+}
+#hexagon{
+    padding: 80px 0 78px 0;
+}
+.hexagon{
+     width: 180px;
+     height: 207px;
+    overflow: hidden;
+    transform: rotate(120deg);
+     margin: 10px;
+ }
+ .hex-layer{
+     width: 100%;
+     height: 100%;
+     transform: rotate(-60deg);
+     overflow: hidden;
+
+                               }
+.hex-layer1{
+    width: 100%;
+    height: 100%;
+    background: url("../images/Layer1 .png")no-repeat center;
+    background-size: cover;
+    transform: rotate(-60deg);
+ }
+.hex-layer2{
+    width: 100%;
+    height: 100%;
+    background: url("../images/Layer2 .png")no-repeat center;
+    background-size: cover;
+    transform: rotate(-60deg);
+}
+.hex-layer3{
+    width: 100%;
+    height: 100%;
+    background: url("../images/Layer3 .png")no-repeat center;
+    background-size: cover;
+    transform: rotate(-60deg);
+}
+.hex-layer4{
+    width: 100%;
+    height: 100%;
+    background: url("../images/Layer4 .png")no-repeat center;
+    background-size: cover;
+    transform: rotate(-60deg);
+}
+.hex-layer5{
+    width: 100%;
+    height: 100%;
+    background: url("../images/Layer7 .png")no-repeat center;
+    background-size: cover;
+    transform: rotate(-60deg);
+}
+.hex-layer6{
+    width: 100%;
+    height: 100%;
+    background: url("../images/Layer8 .png")no-repeat center;
+    background-size: cover;
+    transform: rotate(-60deg);
+}
+.hex-layer7{
+    width: 100%;
+    height: 100%;
+    background: url("../images/Layer9 .png")no-repeat center;
+    background-size: cover;
+    transform: rotate(-60deg);
+}
+.hex-layer8{
+    width: 100%;
+    height: 100%;
+    background: url("../images/Layer10 .png")no-repeat center;
+    background-size: cover;
+    transform: rotate(-60deg);
+}
+.hex-layer9{
+    width: 100%;
+    height: 100%;
+    background: url("../images/Layer11 .png")no-repeat center;
+    background-size: cover;
+    transform: rotate(-60deg);
+}
+.hex-layer10{
+    width: 100%;
+    height: 100%;
+    background: url("../images/Layer12 .png")no-repeat center;
+    background-size: cover;
+    transform: rotate(-60deg);
+}
+.hex-layer11{
+    width: 100%;
+    height: 100%;
+    background: url("../images/Layer13 .png")no-repeat center;
+    background-size: cover;
+    transform: rotate(-60deg);
+}
+.hex-layer12{
+    width: 100%;
+    height: 100%;
+    background: url("../images/Layer14 .png")no-repeat center;
+    background-size: cover;
+    transform: rotate(-60deg);
+}
+.hex-layer13{
+    width: 100%;
+    height: 100%;
+    background: url("../images/Layer5 .png")no-repeat center;
+    background-size: cover;
+    transform: rotate(-60deg);
+}
+#hexagon:before{
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -100px;
+    margin: auto;
+    width: 960px;
+    height: 1px;
+    background: #e4e9eb;
+}
+ .hex-container{
+     max-width: 1020px;
+     margin: 0 auto;
+ }
+ .hex-row{
+     display: flex;
+     justify-content: center;
+ }
+ .hex-row.even{
+     margin: -60px 0;
+ }
+ #about {
+     background: #2eb398;
+     padding: 69px 0 65px;
+     color: #ffffff;
+ }
+.container{
+    width: 820px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+ .about{
+     display: grid;
+     grid-template-columns:1fr 3fr ;
+ }
+.about:after{
+      content: '';
+      position: absolute;
+      left: 0;
+      right: 0;
+      bottom: -50px;
+      margin: auto;
+      width: 960px;
+      height: 1px;
+      background: #000;
+  }
+.about-layer1{
+    width: 100%;
+    height: 100%;
+    background: url("../images/image.png")no-repeat center;
+    background-size: cover;
+    transform: rotate(-60deg);
+}
+ .about-content{
+     text-align: justify;
+     font-weight: 400;
+ }
+.about-content-subtitle {
+    font-family: 'Maven Pro', sans-serif;
+    font-weight: 400;
+    color: #20816d;
+    font-size: 1.8rem;
+}
+.about-content-title{
+    font-family: 'Maven Pro', sans-serif;
+    font-size: 3rem;
+    font-weight: 400;
+   }
+ .about-content-text{
+     font-size: 12px;
+ }
+.social{
+    display: flex;
+    justify-content: flex-end;
+    padding: 60px 6px 0 0;
+}
+ .social-box{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     width: 25px;
+     height: 25px;
+     font-size: 14px;
+     background: #a4dbd4;
+ }
+ .social-box.fb{
+     background: #a4dbd4;
+     color: #04ac95;
+ }
+ .social-box.fb:hover{
+     background-color: #3b5998;
+     color: #f8f8f8;
+ }
+ .social-box.tt{
+     background:#6ccbbe;
+     color: #04ac95;
+ }
+ .social-box.tt:hover{
+     background-color: #0000ff;
+     color: #f8f8f8;
+ }
+.social-box.gp{
+    background:#7ed0c5;
+    color: #04ac95;
+}
+.social-box.gp:hover{
+    background-color: #dc143c;
+    color: #f8f8f8;
+}
+.social-box.pr{
+    background:#abddd7;
+    color: #04ac95;
+}
+.social-box.pr:hover{
+    background-color: #ff0000;
+    color: #f8f8f8;
+}
+.social-box.in{
+    background:#acddd7;
+    color: #04ac95;
+}
+.social-box.in:hover{
+    background-color: #4169E1;
+    color: #f8f8f8;
+}
+.social-box.dr{
+    background:#6dcbbe;
+    color: #04ac95;
+}
+.social-box.dr:hover{
+    background-color: 	#FF69B4;
+    color: #f8f8f8;
+}
+#contacts{
+    background: #323232;
+    padding: 60px 0 64px 0;
+}
+.contacts-title{
+    font-family: 'Maven Pro', sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    color: #e0e0e0;
+}
+.contacts-subtitle{
+    font-family: 'Maven Pro', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #a1a1a1;
+}
+.contacts-form{
+    color: #fff;
+    background: #323232;
+}
+.contacts{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    color: #a1a1a1;
+}
+.contacts-form input{
+    font-family: 'Lato', sans-serif;
+    border: none;
+    display: block;
+    font-size: 12px;
+    margin-bottom: 16px;
+    padding: 15px;
+    width: 100%;
+    background: #454545;
+}
+.textarea{
+    font-family: 'Lato', sans-serif;
+    font-size: 12px;
+    width: 100%;
+    height: 150px;
+    background: #454545;
+    border: none;
+    display: block;
+    margin-bottom: 16px;
+    padding: 15px;
+}
+.send-btn{
+    background: #2eb398;
+    color: rgb(215, 252, 245);
+    font-weight: bold;
+    font-size: 12px;
+    margin: 0 0 0 auto;
+    text-transform: uppercase;
+    width: auto;
+}
+.contacts-decsription{
+    font-size: 12px;
+    font-family: 'Lato', sans-serif;
+    color: rgb(190, 190, 190);
+    letter-spacing: 1px;
+    line-height: 21px;
+}
+.line{
+    border: none;
+    background-color: #222222;
+    height: 2px;
+}
+
+
+.footer {
+    background: #222222;
+}
+.footer-copyright {
+    font-family: 'Maven Pro', sans-serif;
+    font-size: 12px;
+    color: rgb(69, 69, 69);
+    padding: 15px 40px;
+}

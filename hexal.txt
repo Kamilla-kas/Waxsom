@@ -1,0 +1,42 @@
+<!--header{
+    height: 63px;
+    background: #323232;
+    position: relative;
+
+}
+header:before{
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 55px 67px 0 67px;
+    border-color: #323232 transparent transparent transparent;
+    line-height: 0;
+    bottom: -55px;
+    left: calc(55% - 9%);
+    z-index: 9;
+
+}
+.menu{
+    font-family: 'Lato', sans-serif;
+    justify-content: center;
+}
+.menu-list{
+    display: flex;
+    justify-content: center;
+    padding-top: 24px;
+}
+.menu__list__item:not(:last-child){
+    margin-right:25px ;
+}
+.menu__list__item img{
+    position: relative;
+    top: -15px;
+}
+.menu__list__item a{
+    text-transform: uppercase;
+    color: #fff;
+
+}-->
+1rem=8px
